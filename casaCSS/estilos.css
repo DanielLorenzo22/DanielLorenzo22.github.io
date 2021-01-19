@@ -1,0 +1,147 @@
+*,::before*,::after*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.fondo{
+width: 100%;
+max-height: 50vh;
+background-image: url("fondo.jpeg");
+background-size: contain;
+background-repeat: repeat-x;
+position: fixed;
+z-index: -100;
+background-color: #ffd700;
+
+}
+
+.casa{
+max-width: 320px;
+min-height: 40vh;
+margin: 0 auto;
+}
+
+.chimenea{
+width: 50px;
+height: 40px;
+background-color: rgb(161, 154, 144);
+position: absolute;
+left: 50px;
+top: -40px;
+
+
+}
+
+.humo{
+width: 50px;
+height: 60px;
+background-image: url("humo.png");
+position: absolute;
+bottom: 80px;
+left: 20px;
+
+}
+
+.tejado{
+min-width: 320px;
+min-height: 5vh;
+background-color: red;
+position: absolute;
+bottom: 150px;
+left:  -9px;
+border-radius: 5em 5em 0  0;
+z-index: 100;
+}
+
+.muro{
+width: 300px;
+height: 20vh;
+background-color: whitesmoke;
+position: absolute;
+bottom: 55px;
+left:40% ;
+right: 40%;
+
+}
+
+.ventana1, .ventana2{
+height: 60px;
+width: 60px;
+background-color: lightblue;
+}
+
+.ventana1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.ventana2{
+    position: absolute;
+    top: 30%;
+    right:10%;
+}
+
+.ventana1>div:first-of-type{
+width: 10%;
+height: 100%;
+background-color: black;
+margin: 0 auto;
+}
+
+.ventana1>div:last-of-type{
+width: 100%;
+height: 10%;
+background-color: black;
+position: absolute;
+bottom: 45%;
+}
+
+.ventana2>div:first-of-type{
+width: 10%;
+height: 100%;
+background-color: black;
+margin: 0 auto;
+}
+
+.ventana2>div:last-of-type{
+width: 100%;
+height: 10%;
+background-color: black;
+position: absolute;
+bottom: 45%;
+}
+
+.puerta{
+width: 70px;
+height: 80px;
+background-color: chocolate;
+position: absolute;
+bottom: 0;
+left: 115px;
+border-radius: 10%;
+}
+
+.pomo{
+width: 15px;
+height: 15px;
+background-color:#ffd700;
+position: absolute;
+top: 35px;
+left: 7px;
+border-radius: 50%;
+}
+
+.suelo{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-image: url("playa.jpg");
+    background-repeat: no-repeat;
+    
+    position: absolute;
+    bottom: 0px;
+    
+}
