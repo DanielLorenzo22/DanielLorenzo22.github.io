@@ -197,20 +197,20 @@ footer>section>a{
 }
 
 footer>section>a:first-of-type{
-    background-image: url("insta.png");
+    background-image: url("src/insta.png");
     background-size: 90%;
     background-repeat: no-repeat;
     background-color:white;
 }
 
 footer>section>a:nth-of-type(2){
-    background-image: url("dlc.png");
+    background-image: url("src/dlc.png");
     background-size: 90%;
     background-repeat: no-repeat;
 }
 
 footer>section>a:last-of-type{
-    background-image: url("youtube.png");
+    background-image: url("src/youtube.png");
     background-size: 90%;
     background-repeat: no-repeat;
 }
