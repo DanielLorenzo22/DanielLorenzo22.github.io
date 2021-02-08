@@ -8,7 +8,7 @@
 
 body{
     background: linear-gradient(90deg, rgba(227,136,182,1) 0%, rgba(184,249,246,1) 41%, rgba(192,178,254,1) 100%);
-    background-image: url("/src/fondo.png") , url("/src/fondo2.gif") ;
+    background-image: url("/src/fondo.png") , url("src/fondo2.gif") ;
     background-size: cover, cover;
     background-repeat: repeat-y, repeat-y;
     
