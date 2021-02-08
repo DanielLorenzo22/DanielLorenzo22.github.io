@@ -200,7 +200,6 @@ footer>section>a:first-of-type{
     background-image: url("insta.png");
     background-size: 90%;
     background-repeat: no-repeat;
-    background-color:red;
 }
 
 footer>section>a:nth-of-type(2){
